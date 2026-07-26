@@ -45,7 +45,7 @@ export function Navbar() {
         </div>
 
         {/* Right Side Brand/Name */}
-        <div>
+        <div className="hidden md:block">
           <Link
             href="/"
             className="font-serif text-sm tracking-wide text-zinc-900 hover:text-zinc-600 transition-colors duration-300 font-medium"
